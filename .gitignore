@@ -1,0 +1,3 @@
+#Excluye todos los directorios y archivos dentro de la carpeta node_modules, pero no a la carpeta
+!/node_modules
+/node_modules/*

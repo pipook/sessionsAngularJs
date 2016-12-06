@@ -1,0 +1,24 @@
+{
+  "name": "sessionsangularjs",
+  "description": "Proyecto con AngularJs para trabajar con sesiones de usuarios",
+  "main": "index.js",
+  "authors": [
+    "Daniel Enrrique Chico Pajaro"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Sessions",
+    "php",
+    "AngularJs",
+    "Cookies"
+  ],
+  "homepage": "https://github.com/pipook/sessionsAngularJs.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/includes/lib",
+    "test",
+    "tests"
+  ]
+}
