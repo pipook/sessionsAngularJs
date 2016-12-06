@@ -20,5 +20,8 @@
     "app/includes/lib",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.9"
+  }
 }

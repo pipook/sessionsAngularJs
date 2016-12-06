@@ -30,6 +30,7 @@
     "gulp-stylus": "^2.6.0",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
-    "nib": "^1.1.2"
+    "nib": "^1.1.2",
+    "wiredep": "^4.0.0"
   }
 }
