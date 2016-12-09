@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es" ng-app="inicioSesion">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,12 +7,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- bower:css -->
+        <link rel="stylesheet" href="includes/lib/bootstrap/dist/css/bootstrap.css" />
         <!-- endbower -->
         <!-- inject:css -->
         <link rel="stylesheet" href="css/main.css">
         <!-- endinject -->
 
         <!-- Place favicon.ico in the root directory -->
+        <base href="/">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,6 +22,8 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div class="container" ng-view>
+        </div>
         
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -32,6 +36,10 @@
         </script>
         <!-- bower:js -->
         <script src="includes/lib/angular/angular.js"></script>
+        <script src="includes/lib/jquery/dist/jquery.js"></script>
+        <script src="includes/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="includes/lib/angular-route/angular-route.js"></script>
+        <script src="includes/lib/angular-resource/angular-resource.js"></script>
         <!-- endbower -->
         <!-- inject:js -->
         <script src="js/app.js"></script>
