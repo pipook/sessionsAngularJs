@@ -1,12 +1,14 @@
 // File: app/js/main.js
-(function() {
+//(function() {
 	'use strict';
-	//console.log('hola mundo!, Daniel');
-	angular.module('inicioSesion', ['ngRoute'])
+
+	var app = angular.module('inicioSesion', ['ngRoute']);
+
+	app
 		.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
 			$routeProvider.when('/', {
-				templateUrl: 'includes/views/site/login.tpl.html'
+				templateUrl: 'includes/views/site/login.html'
 			});
 			$locationProvider.html5Mode(true);
 		}]);
-})();
+//})();
